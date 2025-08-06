@@ -34,25 +34,26 @@ flowchart LR
 ---
 
 ## 🛠️ Tech Stack
-Technology	Purpose
-Python	Programming language
-Streamlit	Web app framework for UI
-PyPDF2	PDF text extraction
-LangChain	LLM chains and embeddings pipeline
-OpenAI API	Embeddings + GPT-3.5-turbo (LLM)
-FAISS	Vector store for fast semantic search
+Technology-----Purpose  
+Python-----Programming language  
+Streamlit-----Web app framework for UI  
+PyPDF2-----PDF text extraction  
+LangChain-----LLM chains and embeddings pipeline  
+OpenAI API-----Embeddings + GPT-3.5-turbo (LLM)  
+FAISS-----Vector store for fast semantic search  
 
 ---
 
 ## 📂 Project Structure
 
-├── chatbot.py                   # Main Streamlit app
-├── requirements.txt         # Python dependencies
+├── chatbot.py               # Main Streamlit app  
+├── requirements.txt         # Python dependencies  
 └── README.md                # Project documentation
+
 
 ---
 
-##🧪 How It Works
+## 🧪 How It Works
 
 1.PDF Upload: The user uploads a PDF via the Streamlit sidebar.
 
