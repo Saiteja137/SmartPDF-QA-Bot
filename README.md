@@ -79,7 +79,7 @@ FAISS-----Vector store for fast semantic search
 
 #### 1. Clone the repository
 
-git clone https://github.com/your-username/SmartPDF-QA-Bot.git  
+git clone https://[github.com/your-username/SmartPDF-QA-Bot.git](https://github.com/Saiteja137/SmartPDF-QA-Bot/tree/main)  
 cd SmartPDF-QA-Bot
 
 #### 2. Create a virtual environment (optional but recommended)
