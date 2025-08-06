@@ -32,40 +32,7 @@ flowchart LR
 
 
 
-| Technology     | Purpose                               |
-| -------------- | ------------------------------------- |
-| **Python**     | Programming language                  |
-| **Streamlit**  | Web app framework for UI              |
-| **PyPDF2**     | PDF text extraction                   |
-| **LangChain**  | LLM chains and embeddings pipeline    |
-| **OpenAI API** | Embeddings + GPT-3.5-turbo (LLM)      |
-| **FAISS**      | Vector store for fast semantic search |
 
-
-├── chatbot.py                   # Main Streamlit app
-├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
-
-
-🧪 How It Works
-
-1.PDF Upload: The user uploads a PDF via the Streamlit sidebar.
-
-2.Text Extraction: PyPDF2 extracts text from each page.
-
-3.Chunking: Text is split into overlapping chunks using LangChain’s RecursiveCharacterTextSplitter.
-
-4.Embedding: Each chunk is converted into vector embeddings using OpenAI’s API.
-
-5.Vector Store: Embeddings are stored in FAISS for similarity search.
-
-6.User Query: The user types a question related to the document.
-
-7.Semantic Search: The query is embedded and matched with relevant document chunks.
-
-8.Answer Generation: Using GPT-3.5 and LangChain’s QA chain, a contextual answer is generated.
-
-9.Display: The answer is shown in the Streamlit UI.
 
 
 
