@@ -1,4 +1,4 @@
-# 📄 SmartPDF QA Bot 🤖
+# 📄 SmartPDF QA Bot 🤖– AI Chatbot for Querying PDF Documents
 
 An AI-powered chatbot that allows users to upload PDF documents and ask questions about their content. It leverages OpenAI's LLMs, semantic search with FAISS, and LangChain pipelines to provide intelligent, contextual answers.
 
