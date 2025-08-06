@@ -79,12 +79,12 @@ FAISS-----Vector store for fast semantic search
 
 #### 1. Clone the repository
 
-git clone https://github.com/your-username/SmartPDF-QA-Bot.git
+git clone https://github.com/your-username/SmartPDF-QA-Bot.git  
 cd SmartPDF-QA-Bot
 
 #### 2. Create a virtual environment (optional but recommended)
 
-python -m venv venv
+python -m venv venv  
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 
 #### 3. Install dependencies
@@ -97,7 +97,7 @@ Replace OPENAI_API_KEY in Bot.py with your actual API key.
 
 #### ▶️ Run the App
 
-streamlit run chatbot.py
+streamlit run chatbot.py  
 Then go to http://localhost:8501 in your browser to use the app.
 
 ---
