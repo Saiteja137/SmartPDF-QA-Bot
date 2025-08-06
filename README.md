@@ -28,7 +28,7 @@ flowchart LR
     H --> I[Relevant Chunks]
     I --> J[Pass to GPT-3.5 via LangChain QA Chain]
     J --> K[Answer Generated]
-    K --> L[Answer Displayed in Streamlit UI]` ``` `
+    K --> L[Answer Displayed in Streamlit UI]
 
 
 
